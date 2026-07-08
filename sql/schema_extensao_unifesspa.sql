@@ -168,3 +168,4 @@ CREATE TABLE `plano_trabalho` (
   UNIQUE KEY `uq_plano_participacao` (`id_participacao`),
   CONSTRAINT `fk_plano_participacao` FOREIGN KEY (`id_participacao`) REFERENCES `participacao` (`id_participacao`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB;
+
