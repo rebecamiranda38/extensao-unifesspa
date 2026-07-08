@@ -1,4 +1,4 @@
--- Inserts de exemplo
+
 
 SET SQL_SAFE_UPDATES = 0;
 USE `extensao_unifesspa`;
